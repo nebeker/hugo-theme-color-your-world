@@ -278,7 +278,7 @@ hr {
 // Selection
 ::selection {
   background: var(--accent);
-  color: $selected-fg;
+  color: var(--bg);
   text-shadow: none;
 }
 
@@ -678,25 +678,25 @@ article > pre,
       transition:
         background .2s ease-in-out,
         color .2s ease-in-out;
-      
+
       &:nth-child(even) {
         background: var(--alt-bg);
       }
-      
-      &:nth-child(odd) { 
+
+      &:nth-child(odd) {
         background: var(--bg);
       }
-      
+
       &:hover {
         background: var(--accent);
         color: var(--dtl);
-        
+
         a {
           color: var(--dtl);
         }
-        
+
         ::selection {
-          background: $selected-fg;
+          background: var(-bg);
           color: var(--accent);
         }
       }
