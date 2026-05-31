@@ -241,5 +241,14 @@
       "id": "youtube",
       "source": "Font-Awesome"
     }
+  },
+  {
+    "entry": "email",
+    "label": "Email",
+    "decentralized": true,
+    "icon": {
+      "id": "at",
+      "source": "at"
+    }
   }
 ]
